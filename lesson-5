@@ -1,0 +1,44 @@
+# name = input("Введите ваше имя")
+# print(f'Hello {name}!')
+
+# num1 = float(input("Введите число"))
+# num2 = int(input("Введите число"))
+# summa = num1 + num2
+# print(f'{summa}')
+
+# price = 10.6
+# print(type(price))
+
+# price = '12'
+# print(type(price))
+
+# price = 12
+# print(type(price))
+# price = price + 4.5
+# print(type(price))
+
+# price1 = str(price)
+# price2 = 60
+
+# name = 'Mukhammed'
+# print(type(name))
+
+webSite = input("Добрый день уважаемый клиент! Веб сайт стоит 400$. Если вы согласны напишите ok, если нет то no")
+if webSite == 'ok':
+    print('Рады что вы согласились')
+else:
+    print('Жаль что вас не устраивает цена разработки')
+webSite2 = 400
+backend = input('Добавление backend части к веб сайту стоит 100$. Если вы хотите добавить напишите ok, если нет то no')
+backend2 = 100
+if backend == 'ok':
+    print('Поздравляем, ваш веб сайт будет более безопасным')
+else:
+    print('Ничего, обойдемся без backend')
+uxAndui = input('Добавление UI и UX дизайн стоит 150$. Если вы хотите добавить напишите ok, если нет то no')
+uxAndui2 = 150
+if uxAndui == 'ok':
+    print('Ваш веб сайт будет очень красивым')
+else:
+    print('Без figma можем обойти')
+print(f'Цена вашего проекта{summa2}$')
