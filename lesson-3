@@ -1,0 +1,35 @@
+# name = 'Tom'
+# name = 'Sam'
+# print(name)
+
+# в переменных нельзя писать if, else, while, and, end, max, min, true, false, вспомогательные
+# нельзя начинать с заглавной буквы
+
+# _name = 'skn'
+#
+# name = 'Mukhammed'
+# Name = 'Kutman'
+# NAME = 'Alim'
+# name1 = 'Nur'
+# print(name1)
+# print(Name)
+#
+# r = 10
+# pi = 3.14
+# a = 2*pi*r*r
+# print(a)
+
+# c = 6
+# f = c*9/5+32
+# print(f)
+
+num1 = 10
+num2 = 12
+summa = num1 + num2
+delenie = num1 / num2
+minus = num1 - num2
+umnojenie = num1 * num2
+print(summa)
+print(delenie)
+print(minus)
+print(umnojenie)
