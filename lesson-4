@@ -1,0 +1,35 @@
+# age = input('ff')
+# print(age)
+
+
+# num1 = 5
+# num2 = 2.5
+# num3 = float(3)
+# print(num3)
+
+# num1 = 5
+# num2 = 2.5
+# num3 = int(num2)
+# print(num3)
+
+# num1 = int(input('Выберите любое число'))
+# num2 = int(input('Выберите любое число еще раз'))
+# # summa = num1 + num2
+# delenie = num1 / num2
+# print(f'Сумма ваших чисел: {summa} Деление ваших чисел: {delenie}')
+
+
+num1 = float(input('Выберите любое число'))
+num2 = float(input('Выберите любое число еще раз'))
+summa = float(num1 + num2)
+summa2 = int(num1 + num2)
+delenie = float(num1 / num2)
+delenie2 = int(num1 / num2)
+print(f'Нецелая часть прибавления: {summa}, целая часть: {summa2} ')
+print(f'Нецелая часть деления: {delenie}, целая часть: {delenie2}')
+
+
+
+
+
+
