@@ -1,0 +1,9 @@
+
+name = input('what is your name?')
+print('Ohh, nice too met you', name)
+age = input('how old are you?')
+print("Ok, i'm remembering")
+
+like = input('What do you like?')
+print('Good!')
+print("Your name is:", name, ',' "You are:", age, "years old", "and you like:", like)
